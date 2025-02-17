@@ -1,0 +1,14 @@
+# Ignorar archivos de Visual Studio
+.vs/
+.vscode/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.tmp
+*.vspscc
+
+# Ignorar archivos específicos de la base de datos
+*.mdf
+*.ldf

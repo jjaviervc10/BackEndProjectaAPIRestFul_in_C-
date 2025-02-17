@@ -1,14 +1,42 @@
-# Ignorar archivos de Visual Studio
+# Archivos y carpetas generados por Visual Studio
 .vs/
 .vscode/
+.idea/
 bin/
 obj/
-*.user
-*.suo
-*.userosscache
-*.tmp
-*.vspscc
 
-# Ignorar archivos específicos de la base de datos
+# Archivos generados por .NET
+*.user
+*.userosscache
+*.suo
+*.tmp
+*.dbmdl
+*.bak
+*.log
+
+# Archivos específicos de ASP.NET
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Archivos específicos de base de datos
 *.mdf
 *.ldf
+
+# Ignorar configuraciones específicas de la base de datos (si se incluyen)
+appsettings.json
+
+# Ignorar configuraciones de usuario (generalmente no se deben subir al repo)
+appsettings.Development.json
+appsettings.Production.json
+
+# Archivos de compilación y dependencias
+# NuGet
+*.nuget/
+
+# Ignorar archivos de publicación de .NET
+publish/
+
+# Ignorar archivos de Git
+*.git/
